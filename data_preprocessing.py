@@ -13,7 +13,7 @@ import os
 print("1")
 # 读取file1.csv
 #file1_path = 'D:/bristol/study/subjects/individual project/data_lendingclub/2/archive/accepted_2007_to_2018q4.csv/accepted_2007_to_2018q4.csv'
-data1 = pd.read_csv("../data/accepted_2007_to_2018q4.csv/accepted_2007_to_2018q4.csv")
+data1 = pd.read_csv("../data/accepted_2007_to_2018q4.csv/accepted_2007_to_2018Q4.csv")
 print("2")
 # 添加新列，并填充为1
 data1['New_Column_statement'] = 1
@@ -27,7 +27,7 @@ print("4")
 
 # 读取file2.csv
 #file2_path = 'D:/bristol/study/subjects/individual project/data_lendingclub/2/archive/rejected_2007_to_2018q4.csv/rejected_2007_to_2018q4.csv'
-data2 = pd.read_csv("../data/rejected_2007_to_2018q4.csv/rejected_2007_to_2018q4.csv")
+data2 = pd.read_csv("../data/rejected_2007_to_2018q4.csv/rejected_2007_to_2018Q4.csv")
 print("5")
 # 添加新列，并填充为0
 data2['New_Column_statement'] = 0
